@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-08-2016, 12:36:01
+    Author     : Stegger
+*/
+
+#pane {
+    -fx-background-color: #212529;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.button {
+    -fx-background-color: #1e2125;
+    -fx-border-color: #26292e;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 4,0,0,1 );
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #26292e;
+}

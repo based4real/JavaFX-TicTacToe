@@ -1,0 +1,64 @@
+.button {
+    -fx-background-color: #1e2125;
+    -fx-border-color: #26292e;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.3) , 4,0,0,1 );
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #26292e;
+}
+
+.button:pressed {
+    -fx-background-color: #1e2125;
+}
+
+#boxbg {
+    -fx-background-color: #212529;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+.text-field {
+    -fx-text-fill: white;
+    -fx-background-color: #26292e, #1e2125 ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+
+.text-field:hover {
+    -fx-background-color: #103f54, #1e2125 ;
+}
+
+.text-field:focused {
+    -fx-background-color: -fx-focus-color, #1e2125 ;
+}
+
+.combo-box {
+    -fx-background-color: #26292e, #1e2125 ;
+    -fx-background-insets: 0, 0 0 1 0 ;
+    -fx-background-radius: 0 ;
+}
+
+.combo-box:hover {
+    -fx-background-color: #103f54, #1e2125 ;
+}
+
+.combo-box:focused {
+    -fx-background-color: #279ed3, #1e2125 ;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell {
+    -fx-text-fill: grey;
+    -fx-background-color: -fx-text-box-border, #1e2125 ;
+}
+
+#creatorLabel {
+    -fx-text-fill: #6e6e6e;
+}

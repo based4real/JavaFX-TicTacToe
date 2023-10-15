@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox id="boxbg" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" stylesheets="@../css/Menu.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.controller.MainMenuController">
+   <children>
+      <ImageView fx:id="imageMainMenu" fitHeight="175.0" fitWidth="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/MainMenu.png" />
+         </image></ImageView>
+      <HBox alignment="TOP_CENTER" prefHeight="63.0" prefWidth="300.0">
+         <VBox.margin>
+            <Insets top="15.0" />
+         </VBox.margin>
+         <children>
+            <Button fx:id="GameWorldPvP" mnemonicParsing="false" onAction="#onPvPBtnClick" prefWidth="100.0" text="PlayerVsPlayer">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="GameWorldPvE" mnemonicParsing="false" onAction="#onPvEBtnClick" prefWidth="100.0" text="PlayerVsAI">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <VBox.margin>
+            <Insets left="100.0" right="100.0" />
+         </VBox.margin>
+         <children>
+            <Button fx:id="SettingsBtn" mnemonicParsing="false" onAction="#onSettingsBtnClick" prefWidth="100.0" text="Settings">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" onAction="#onExitBtnClick" prefWidth="100.0" text="Exit">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Button>
+         </children>
+      </VBox>
+      <Label id="creatorLabel" text="2023 - Patrick, Mads &amp; Thomas" textFill="#14141494">
+         <VBox.margin>
+            <Insets bottom="2.0" />
+         </VBox.margin>
+      </Label>
+   </children>
+</VBox>
