@@ -3,6 +3,11 @@ Second project on the 1. semester of Computer Science. We had 1 week to finish t
 When first receiving the project, we had a very very simple base with no logic besides a few windows that could open and an Interface.
 One rule was that we couldn't change the "IGameModel" interface at all.
 
+<p align="center" width="100%">
+    <img width="33%" src="https://i.imgur.com/bTOSFlQ.png">
+</p>
+
+
 # Project
 We started this project a monday, and finished friday. That includes writing the code for the Game, making a "report" of the project + an UML diagram of the project.
 
